@@ -6,7 +6,6 @@ scoreboard players set .num0 treasurehunt.store 0
 scoreboard players set .num1 treasurehunt.store 1
 scoreboard players set .num20 treasurehunt.store 20
 scoreboard players set .max_location treasurehunt.store 0
-scoreboard players set .max_reward treasurehunt.store 0
 
 # stop after x game ticks
 scoreboard players set .game_end_ticks treasurehunt.store 6000
@@ -21,4 +20,3 @@ scoreboard players set .game_reward_counter treasurehunt.store 0
 function treasurehunt:game/stop
 
 function treasurehunt:_internal/location_loop { call: "treasurehunt:_internal/set_max_location" }
-function treasurehunt:_internal/reward_loop { call: "treasurehunt:_internal/set_max_reward" }

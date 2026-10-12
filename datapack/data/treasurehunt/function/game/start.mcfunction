@@ -1,5 +1,4 @@
 execute store result storage treasurehunt:game max_location int 1 run scoreboard players get .max_location treasurehunt.store
-execute store result storage treasurehunt:game max_reward int 1 run scoreboard players get .max_reward treasurehunt.store
 data modify storage treasurehunt:game available_locations set from storage treasurehunt:locations locations
 data remove storage treasurehunt:game populated_locations
 
