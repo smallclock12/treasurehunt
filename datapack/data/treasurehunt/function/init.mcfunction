@@ -6,6 +6,7 @@ scoreboard players set .num0 treasurehunt.store 0
 scoreboard players set .num1 treasurehunt.store 1
 scoreboard players set .num20 treasurehunt.store 20
 scoreboard players set .max_location treasurehunt.store 0
+scoreboard players set .chestcast_limit treasurehunt.store 5
 
 # stop after x game ticks
 scoreboard players set .game_end_ticks treasurehunt.store 6000
