@@ -3,8 +3,7 @@
 Based on a Safe Survival minigame event that took place everyweek on the previous map. Sadly has not been re-implemented since.
 
 ### Showcase
-
-![yt](https://www.youtube.com/watch?v=V_hVDsGSm_M)
+[![treasurehunt](https://img.youtube.com/vi/V_hVDsGSm_M/0.jpg)](https://www.youtube.com/watch?v=V_hVDsGSm_M)
 
 ### Todo
 
