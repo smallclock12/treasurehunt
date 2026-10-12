@@ -20,4 +20,5 @@ Based on a Safe Survival minigame event that took place everyweek on the previou
 - Only tick game every 20 ticks, no need for this to be every tick
 - Test & implement at larger scale/area
   - In particular with any entities (mostly the egg markers when in location editor mode)
+- Extend chest rewards
 
