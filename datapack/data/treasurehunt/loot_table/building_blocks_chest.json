@@ -1,0 +1,65 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 27,
+            "entries": [
+		{
+		    "type": "minecraft:item",
+		    "weight": 3,
+		    "name": "minecraft:stone_bricks",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 3,
+		    "name": "minecraft:mossy_stone_bricks",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:bricks",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:mossy_cobblestone",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 32
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:smooth_quartz",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		}
+            ]
+        }
+    ]
+}

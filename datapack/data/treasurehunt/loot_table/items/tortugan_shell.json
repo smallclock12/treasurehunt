@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:turtle_helmet",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Tortugan Shell",
+                                    "color": "blue",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                {
+                                    "text": "The shell of an ancient race of turtles.",
+                                    "color": "blue"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "protection": 4,
+                                "fire_protection": 3,
+                                "aqua_affinity": 1,
+                                "respiration": 5
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "armor",
+                                    "operation": "add_value",
+                                    "amount": 6,
+                                    "slot": "head",
+                                    "id": "treasurehunt:tortugan_shell_armor"
+                                },
+                                {
+                                    "attribute": "armor_toughness",
+                                    "operation": "add_value",
+                                    "amount": 2,
+                                    "slot": "head",
+                                    "id": "treasurehunt:tortugan_shell_armor_toughness"
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:unbreakable": {}
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

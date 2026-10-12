@@ -1,0 +1,81 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "weight": 1,
+                    "name": "minecraft:leather_boots",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": [
+                                {
+                                    "text": "Diving Flippers",
+                                    "color": "yellow",
+                                    "underlined": false,
+                                    "bold": true,
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:dyed_color": 16701501
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "enchantments": {
+                                "protection": 3,
+                                "unbreaking": 5,
+                                "depth_strider": 3,
+                                "mending": 1
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_attributes",
+                            "modifiers": [
+                                {
+                                    "attribute": "minecraft:submerged_mining_speed",
+                                    "operation": "add_multiplied_base",
+                                    "amount": 1.2,
+                                    "slot": "feet",
+                                    "id": "treasurehunt:boots_submerged_mining"
+                                },
+                                {
+                                    "attribute": "minecraft:oxygen_bonus",
+                                    "operation": "add_value",
+                                    "amount": 4,
+                                    "slot": "feet",
+                                    "id": "treasurehunt:boots_oxygen"
+                                },
+                                {
+                                    "attribute": "minecraft:armor",
+                                    "operation": "add_value",
+                                    "amount": 2,
+                                    "slot": "feet",
+                                    "id": "treasurehunt:boots_armor"
+                                },
+                                {
+                                    "attribute": "minecraft:armor_toughness",
+                                    "operation": "add_value",
+                                    "amount": 1,
+                                    "slot": "feet",
+                                    "id": "treasurehunt:boots_armor_toughness"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+services:
+  mc:
+    image: itzg/minecraft-server
+    tty: true
+    stdin_open: true
+    env_file: .env
+    ports:
+      - "25565:25565"
+    restart: always
+    environment:
+      EULA: "TRUE"
+      TYPE: PAPER
+      VERSION: 1.21.11
+      USE_MEOWICE_FLAGS: "TRUE"
+      OPS: eepykanna
+    volumes:
+      - ./srv:/data
+      - ./datapack:/data/world/datapacks/treasurehunt
+    networks:
+      mc_net:
+        aliases:
+          - mc
+
+networks:
+  mc_net:
+    name: mc_net

@@ -1,0 +1,40 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/aquas_rod"
+                },
+		{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/artificers_pickaxe"
+                },
+		{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/diving_flippers"
+                },
+		{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/meteor_blade"
+                },
+		{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/thunder_boots"
+                },
+		{
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:items/tortugan_shell"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+version: '3'
+
+
+tasks:
+  mc.up:
+    cmds:
+      - docker compose -f mc-compose.yml up -d
+
+  mc.down:
+    cmds:
+      - docker compose -f mc-compose.yml down
+
+  mc.logs:
+    cmds:
+      - docker compose -f mc-compose.yml logs --follow
