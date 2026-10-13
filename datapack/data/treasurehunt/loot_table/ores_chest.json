@@ -2,8 +2,12 @@
     "type": "minecraft:loot_table",
     "pools": [
         {
-            "rolls": 27,
+            "rolls": 18,
             "entries": [
+		{
+		    "type": "minecraft:empty",
+		    "weight": 10
+		},
 		{
 		    "type": "minecraft:item",
 		    "weight": 12,
@@ -11,7 +15,7 @@
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 8 
+                            "count": 12
                         }
 		    ]
 		},
@@ -22,7 +26,7 @@
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 8 
+                            "count": 8
                         }
 		    ]
 		},
@@ -55,7 +59,7 @@
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 4
+                            "count": 3
                         }
 		    ]
 		},
@@ -66,24 +70,24 @@
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 4
+                            "count": 6
                         }
 		    ]
 		},
 		{
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:diamond_ore",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 4
+                            "count": 2
                         }
 		    ]
 		},
 		{
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:deepslate_diamond_ore",
 		    "functions": [
 			{
@@ -106,7 +110,29 @@
 		{
 		    "type": "minecraft:item",
 		    "weight": 1,
+		    "name": "minecraft:deepslate_coal_ore",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
 		    "name": "minecraft:ancient_debris",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1 
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:light_gray_shulker_box",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
@@ -132,7 +158,7 @@
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 16
+                            "count": 8
                         }
 		    ]
 		}

@@ -1,4 +1,4 @@
-scoreboard players operation .game_ticks treasurehunt.store += .num1 treasurehunt.store
+scoreboard players operation .game_ticks treasurehunt.store += .num20 treasurehunt.store
 
 scoreboard players operation .game_reward_counter treasurehunt.store = .game_ticks treasurehunt.store
 scoreboard players operation .game_reward_counter treasurehunt.store %= .game_reward_ticks treasurehunt.store

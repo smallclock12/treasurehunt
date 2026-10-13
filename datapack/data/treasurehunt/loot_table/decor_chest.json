@@ -1,0 +1,333 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 16,
+            "entries": [
+		{
+		    "type": "minecraft:empty",
+		    "weight": 4
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:cyan_shulker_box",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 6,
+		    "name": "minecraft:lantern",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 4,
+		    "name": "minecraft:soul_lantern",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 10
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 4,
+		    "name": "minecraft:copper_lantern",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 10
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:copper_bulb",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:ochre_froglight",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:verdant_froglight",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:pearlescent_froglight",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:brewing_stand",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:smoker",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:blast_furnace",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:loom",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:lectern",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:smithing_table",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:fletching_table",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:cartography_table",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:anvil",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:enchanting_table",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:item_frame",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:glow_item_frame",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:armor_stand",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:painting",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 16
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:decorated_pot",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 4,
+		    "name": "minecraft:bookshelf",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:chiseled_bookshelf",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:barrel",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:chest",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:ender_chest",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:flower_pot",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		}
+            ]
+        }
+    ]
+}

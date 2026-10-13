@@ -18,6 +18,11 @@
                     "type": "minecraft:loot_table",
                     "weight": 1,
                     "value": "treasurehunt:ores_chest"
+                },
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:decor_chest"
                 }
             ]
         },
@@ -26,7 +31,7 @@
             "entries": [
                 {
                     "type": "minecraft:empty",
-                    "weight": 6
+                    "weight": 5
                 },
                 {
                     "type": "minecraft:loot_table",

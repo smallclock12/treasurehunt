@@ -1,5 +1,8 @@
-tag @s remove treasurehunt_location_editor
-tellraw @s [{text:"You are no longer editting treasure locations", bold: true, color: "red"}]
+execute if score .location_editor_active treasurehunt.store = .num0 treasurehunt.store run minecraft:return run tellraw @s [{text:"Location editor is not active.", bold: true, color: "dark_red"}]
+
+tag @a remove treasurehunt_location_editor
+scoreboard players set .location_editor_active treasurehunt.store 0
+tellraw @s [{text:"You are no longer editting treasure locations.", bold: true, color: "red"}]
 
 function treasurehunt:_internal/location_editor_loop { call: "treasurehunt:_internal/location_editor_save" }
 

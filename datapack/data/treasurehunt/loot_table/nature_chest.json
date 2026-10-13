@@ -2,77 +2,301 @@
     "type": "minecraft:loot_table",
     "pools": [
         {
-            "rolls": 27,
+            "rolls": 16,
             "entries": [
+		{
+		    "type": "minecraft:empty",
+		    "weight": 4
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 4,
+		    "name": "minecraft:flower_pot",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
 		{
 		    "type": "minecraft:item",
 		    "weight": 1,
+		    "name": "minecraft:lime_shulker_box",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 1
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:spore_blossom",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:wither_rose",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 2
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:cactus_flower",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:bush",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 8
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:torchflower",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:lily_of_the_valley",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:white_tulip",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:orange_tulip",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:pink_tulip",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:white_tulip",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:red_tulip",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 12
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:oxeye_daisy",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:open_eyeblossom",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 4
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:red_mushroom",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:brown_mushroom",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:blue_orchid",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:allium",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:azure_bluet",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 2,
 		    "name": "minecraft:oak_sapling",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 8
+                            "count": 6
                         }
 		    ]
 		},
 		{
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:birch_sapling",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 8
+                            "count": 6
                         }
 		    ]
 		},
                 {
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:mangrove_propagule",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 8
+                            "count": 6
                         }
 		    ]
 		},
                 {
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:pale_oak_sapling",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
+                            "count": 6
+                        }
+		    ]
+		},
+                {
+		    "type": "minecraft:item",
+		    "weight": 2,
+		    "name": "minecraft:poppy",
+		    "functions": [
+			{
+                            "function": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
 		},
                 {
 		    "type": "minecraft:item",
-		    "weight": 1,
-		    "name": "minecraft:poppy",
-		    "functions": [
-			{
-                            "function": "minecraft:set_count",
-                            "count": 16
-                        }
-		    ]
-		},
-                {
-		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:dandelion",
 		    "functions": [
 			{
                             "function": "minecraft:set_count",
-                            "count": 16
+                            "count": 8
                         }
 		    ]
 		},
                 {
 		    "type": "minecraft:item",
-		    "weight": 1,
+		    "weight": 2,
 		    "name": "minecraft:cornflower",
 		    "functions": [
 			{
