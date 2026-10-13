@@ -4,6 +4,7 @@ Based on a Safe Survival minigame event that took place everyweek on the previou
 
 ### Showcase
 [![treasurehunt](https://img.youtube.com/vi/V_hVDsGSm_M/0.jpg)](https://www.youtube.com/watch?v=V_hVDsGSm_M)
+
 [https://www.youtube.com/watch?v=V_hVDsGSm_M](https://www.youtube.com/watch?v=V_hVDsGSm_M)
 
 ### Todo
