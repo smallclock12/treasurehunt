@@ -32,7 +32,7 @@ The following nbt data structure is used to track game state is as follows:
   "available_locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
     {"x": 216, "y": 83, "z": 154, "rot": "west"},
-    ....
+    ...
   ]
 
   // tracks locations that are populated with treasure currently
@@ -43,7 +43,9 @@ The following nbt data structure is used to track game state is as follows:
   ]
 }
 ```
-The general idea is that as the game loops around, we do a random roll from 0 to `last_index_available_locations`, this allows us to select a location from `available_locations`. We then spawn a treasure chest in that location & move it into `populated_locations`.
+As the game loops around, we do a random roll from 0 to `last_index_available_locations`, this allows us to select a location from `available_locations`. We then spawn a treasure chest in that location & move it into `populated_locations`.
+
+`available_locations` is populated from treasurehunt:locations `locations` when the game starts.
 
 Once `last_index_populated_locations` is greater than or equal to `.game_max_concurrent_rewards` then we will despawn the first treasure chest in the `populated_locations` array. This should always be the longest lived treasure chest. When the chest is despawned we move it back into `available_locations` to be re-rolled.
 
@@ -53,3 +55,36 @@ The following config can be adjusted in the treasurehunt.store scoreboard (will 
 - .game_max_concurrent_locations = how many treasure chests should be avaiable at any point in time (default: 4)
 
 ### Location Editor
+
+> [!WARNING]
+> There is currently a bug if you place the chest in the same location+rotation multiple times in the same editing session.
+
+`/data get storage treasurehunt:locations` 
+```json
+{
+  // array of saved locations
+  "locations": [
+    {"x": 218, "y": 79, "z": 126, "rot": "north"},
+    {"x": 216, "y": 83, "z": 154, "rot": "west"},
+    ...
+  ]
+
+  // when location editor is activated a copy of the locations array is created here
+  // then whenever a new chest is placed by the location editor it is added here. 
+  "locations_editor": [
+    {"x": 222, "y": 74, "z": 111, "rot": "south"},
+    {"x": 194, "y": 87, "z": 157, "rot": "west"},
+    ...
+  ],
+
+  // when editing is completed we loop through each of the locations_editor elements and if there is a chest there in the correct orientation we save it here
+  // if there is no chest it is discarded
+  // once complete locations will be overwritten by these saved locations
+  "locations_saved": [
+    {"x": 222, "y": 74, "z": 111, "rot": "south"},
+    {"x": 194, "y": 87, "z": 157, "rot": "west"},
+    ...
+  ]
+}
+```
+
