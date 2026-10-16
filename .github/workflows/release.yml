@@ -16,8 +16,10 @@ jobs:
       - name: Checkout sources
         uses: actions/checkout@v4
 
-      - shell: |
-        cd datapack && zip -r ../treasurehunt.zip ./
-        gh release create ${{ inputs.tag }} treasurehunt.zip --generate-notes
+      - name: Package
+        shell: bash
+        run: |
+          cd datapack && zip -r ../treasurehunt.zip ./
+          gh release create ${{ inputs.tag }} treasurehunt.zip --generate-notes
 
       
