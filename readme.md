@@ -87,7 +87,8 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
     // ...
   ],
 
-  // when editing is completed we loop through each of the locations_editor elements and if there is a chest there in the correct orientation we save it here
+  // when editing is completed we loop through each of the locations_editor elements
+  // if there is a chest there in the correct orientation we store it here
   // if there is no chest it is discarded
   // once complete locations will be overwritten by these saved locations
   "locations_saved": [
