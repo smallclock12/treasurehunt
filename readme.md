@@ -25,21 +25,21 @@ Based on a Safe Survival minigame event that took place every week on the previo
 
   // index of the last location random roll
   // used to select which location to populate with a reward 
-  "location_roll": 1
+  "location_roll": 1,
 
   // tracks locations that don't have rewards in them currently
   // one of these will be selected as the next location
   "available_locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
     {"x": 216, "y": 83, "z": 154, "rot": "west"},
-    ...
+    // ...
   ]
 
   // tracks locations that are populated with treasure currently
   "populated_locations": [
     {"x": 222, "y": 74, "z": 111, "rot": "south"},
     {"x": 194, "y": 87, "z": 157, "rot": "west"},
-    ...
+    // ...
   ]
 }
 ```
@@ -66,15 +66,15 @@ The following config can be adjusted in the treasurehunt.store scoreboard (will 
   "locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
     {"x": 216, "y": 83, "z": 154, "rot": "west"},
-    ...
-  ]
+    // ...
+  ],
 
   // when location editor is activated a copy of the locations array is created here
   // then whenever a new chest is placed by the location editor it is added here. 
   "locations_editor": [
     {"x": 222, "y": 74, "z": 111, "rot": "south"},
     {"x": 194, "y": 87, "z": 157, "rot": "west"},
-    ...
+    // ...
   ],
 
   // when editing is completed we loop through each of the locations_editor elements and if there is a chest there in the correct orientation we save it here
@@ -83,7 +83,7 @@ The following config can be adjusted in the treasurehunt.store scoreboard (will 
   "locations_saved": [
     {"x": 222, "y": 74, "z": 111, "rot": "south"},
     {"x": 194, "y": 87, "z": 157, "rot": "west"},
-    ...
+    // ...
   ]
 }
 ```
