@@ -11,7 +11,7 @@ Based on a Safe Survival minigame event that took place every week on the previo
 
 #### Game Loop
 
-The following nbt data structure is used to track game state is as follows:
+`/data get storage treasurehunt:game`
 ```json
 {
   // index of the last element in the locations array
