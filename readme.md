@@ -43,7 +43,7 @@ Command: `/scoreboard players set <config option> treasurehunt.store <value>`
   // used to select which location to populate with a treasure chest
   "location_roll": 1,
 
-  // tracks locations that don't have rewards in them currently
+  // tracks locations that don't have treasure chests in them currently
   // one of these will be selected as the next location
   "available_locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
