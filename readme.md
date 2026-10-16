@@ -33,7 +33,7 @@ Based on a Safe Survival minigame event that took place every week on the previo
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
     {"x": 216, "y": 83, "z": 154, "rot": "west"},
     // ...
-  ]
+  ],
 
   // tracks locations that are populated with treasure currently
   "populated_locations": [
