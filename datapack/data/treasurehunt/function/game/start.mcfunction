@@ -1,8 +1,8 @@
 summon minecraft:marker ~ ~ ~ {Tags:["treasure_hunt_location_start"]}
 
-execute if score .game_active treasurehunt.store = .num1 treasurehunt.store run minecraft:return run tellraw @s [{text:"Cannot start a new game while one is already running!", bold: true, color: "dark_red"}]
+execute if score .game_active treasurehunt.store = .num1 treasurehunt.store run return run tellraw @s [{text:"Cannot start a new game while one is already running!", bold: true, color: "dark_red"}]
 
-execute if score .location_editor_active treasurehunt.store = .num1 treasurehunt.store run minecraft:return run tellraw @s [{text:"Cannot start a game while location editor is active.", bold: true, color: "dark_red"}]
+execute if score .location_editor_active treasurehunt.store = .num1 treasurehunt.store run return run tellraw @s [{text:"Cannot start a game while location editor is active.", bold: true, color: "dark_red"}]
 
 function treasurehunt:_internal/location_loop { call: "treasurehunt:_internal/set_max_location_index" }
 

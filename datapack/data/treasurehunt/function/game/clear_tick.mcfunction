@@ -1,7 +1,7 @@
 function treasurehunt:debug {msg: "Running clear tick"}
 
 # verify there is something to clear up
-execute unless score .last_index_populated_locations treasurehunt.store >= .game_max_concurrent_rewards treasurehunt.store run minecraft:return fail
+execute unless score .last_index_populated_locations treasurehunt.store >= .game_max_concurrent_rewards treasurehunt.store run return fail
 
 function treasurehunt:debug {msg: "Clear tick passed check"}
 

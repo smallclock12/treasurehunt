@@ -1,6 +1,6 @@
 # let non treasurehunt_location_editors keep the advancement
-execute if entity @s[tag=!treasurehunt_location_editor] run minecraft:return fail
-execute if score .location_editor_active treasurehunt.store = .num0 treasurehunt.store run minecraft:return fail
+execute if entity @s[tag=!treasurehunt_location_editor] run return fail
+execute if score .location_editor_active treasurehunt.store = .num0 treasurehunt.store run return fail
 
 # find and store chest
 tag @s add chestcaster
