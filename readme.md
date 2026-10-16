@@ -35,8 +35,7 @@ The data structure used to track game state is as follows:
     ....
   ]
 
-  // tracks locations are populated with rewards currently
-  // one of these will be selected as the next location
+  // tracks locations that are populated with treasure currently
   "populated_locations": [
     {"x": 222, "y": 74, "z": 111, "rot": "south"},
     {"x": 194, "y": 87, "z": 157, "rot": "west"},
