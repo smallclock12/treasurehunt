@@ -62,9 +62,6 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
 
 ### Location Editor
 
-> [!WARNING]
-> There is currently a bug if you place the chest in the same location+rotation multiple times in the same editing session.
-
 `/data get storage treasurehunt:locations` 
 ```jsonc
 {
