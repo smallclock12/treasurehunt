@@ -40,7 +40,7 @@ Command: `/scoreboard players set <config option> treasurehunt.store <value>`
   "last_index_available_locations": 5,
 
   // index of the last location random roll
-  // used to select which location to populate with a reward 
+  // used to select which location to populate with a treasure chest
   "location_roll": 1,
 
   // tracks locations that don't have rewards in them currently
