@@ -49,10 +49,10 @@ As the game loops around, we do a random roll from 0 to `last_index_available_lo
 
 Once `last_index_populated_locations` is greater than or equal to `.game_max_concurrent_rewards` then we will despawn the first treasure chest in the `populated_locations` array. This should always be the longest lived treasure chest. When the chest is despawned we move it back into `available_locations` to be re-rolled.
 
-The following config can be adjusted in the treasurehunt.store scoreboard (will currently be reset on reload, will fix):
-- .game_end_ticks = how long a game should last in ticks (default: 6000)
-- .game_reward_ticks = how often the game should spawn/despawn a treasure chest (default: 100)
-- .game_max_concurrent_locations = how many treasure chests should be avaiable at any point in time (default: 4)
+The following config can be adjusted in the `treasurehunt.store` scoreboard (will currently be reset on reload, will fix):
+- `.game_end_ticks` = how long a game should last in ticks (default: 6000)
+- `.game_reward_ticks` = how often the game should spawn/despawn a treasure chest (default: 100)
+- `.game_max_concurrent_locations` = how many treasure chests should be avaiable at any point in time (default: 4)
 
 ### Location Editor
 
