@@ -12,7 +12,7 @@ Based on a Safe Survival minigame event that took place every week on the previo
 #### Game Loop
 
 `/data get storage treasurehunt:game`
-```json
+```jsonc
 {
   // index of the last element in the locations array
   "max_location_index": 9,
@@ -60,7 +60,7 @@ The following config can be adjusted in the treasurehunt.store scoreboard (will 
 > There is currently a bug if you place the chest in the same location+rotation multiple times in the same editing session.
 
 `/data get storage treasurehunt:locations` 
-```json
+```jsonc
 {
   // array of saved locations
   "locations": [
