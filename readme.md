@@ -11,7 +11,7 @@ Based on a Safe Survival minigame event that took place every week on the previo
 
 #### Game Loop
 
-The data structure used to track game state is as follows:
+The following nbt data structure is used to track game state is as follows:
 ```json
 {
   // index of the last element in the locations array
@@ -51,3 +51,5 @@ The following config can be adjusted in the treasurehunt.store scoreboard (will 
 - .game_end_ticks = how long a game should last in ticks (default: 6000)
 - .game_reward_ticks = how often the game should spawn/despawn a treasure chest (default: 100)
 - .game_max_concurrent_locations = how many treasure chests should be avaiable at any point in time (default: 4)
+
+### Location Editor
