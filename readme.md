@@ -99,3 +99,6 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
 }
 ```
 
+## Todo
+
+- Add option for user defined loot table
