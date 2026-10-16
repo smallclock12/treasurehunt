@@ -4,24 +4,17 @@
 scoreboard objectives add treasurehunt.game dummy
 scoreboard objectives add treasurehunt.store dummy
 
+# Ensure defaulted
 scoreboard players set .num0 treasurehunt.store 0
 scoreboard players set .num1 treasurehunt.store 1
 scoreboard players set .num20 treasurehunt.store 20
-scoreboard players set .max_location treasurehunt.store 0
 scoreboard players set .chestcast_limit treasurehunt.store 20
-
-# stop after x game ticks
-scoreboard players set .game_end_ticks treasurehunt.store 6000
-# how often new reward chest should be added no lower than 100 game ticks
-scoreboard players set .game_reward_ticks treasurehunt.store 100
-# max number of populated locations, controls clear time aswell
-scoreboard players set .game_max_populated_location treasurehunt.store 4
-scoreboard players set .game_ticks treasurehunt.store 0
+scoreboard players set .location_editor_active treasurehunt.store 0
+scoreboard players set .max_location_index treasurehunt.store 0
 scoreboard players set .game_active treasurehunt.store 0
+scoreboard players set .game_ticks treasurehunt.store 0
 scoreboard players set .game_reward_counter treasurehunt.store 0
 
-scoreboard players set .location_editor_active treasurehunt.store 0
 
 function treasurehunt:_internal/location_loop { call: "treasurehunt:_internal/clear_location" }
-
-function treasurehunt:_internal/location_loop { call: "treasurehunt:_internal/set_max_location" }
+function treasurehunt:_internal/location_loop { call: "treasurehunt:_internal/set_max_location_index" }
