@@ -1,0 +1,23 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Tag name for release'
+        required: true
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - shell: |
+        cd datapack && zip -r ../treasurehunt.zip ./
+        gh release create ${{ inputs.tag }} treasurehunt.zip --generate-notes
+
+      
