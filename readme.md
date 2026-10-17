@@ -25,6 +25,35 @@ The following config can be adjusted in the `treasurehunt.store` scoreboard:
 
 Command: `/scoreboard players set <config option> treasurehunt.store <value>`
 
+#### Using Custom Loot Tables
+
+You can also set a custom loot table instead of using ours by setting the `treasurehunt:locations loot_table` nbt data to the name of the loot table you would like to use.
+
+Command: `data modify storage treasurehunt:locations loot_table set value "<namespace>:<loot_table>"`
+
+For the datapack to function correctly you will also need to create an advancement using the following template:
+```json
+{
+  "parent": "treasurehunt:looted_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "<namespace>:<loot_table>"
+      }
+    }
+  },
+  "rewards": {
+    "function": "treasurehunt:looted_treasure"
+  }
+}
+```
+
+Ensure the advancement:
+- References the correct "loot_table" in the "conditions"
+- Has a parent value of "treasurehunt:looted_treasure"
+- Triggers the function "treasurehunt:looted_treasure"
+
 #### Game Loop
 
 `/data get storage treasurehunt:game`
