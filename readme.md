@@ -10,8 +10,8 @@ Based on a Safe Survival minigame event that took place every week on the previo
 ### How it works
 
 #### Key Functions
-- `treasurehunt:location_editor_on`: Start editing locations, must be execute as a player (target player if using a cmd block)
-- `treasurehunt:location_editor_off`: Stop editing locations, must be execute as a player (target player if using a cmd block)
+- `treasurehunt:location_editor_on`: Start editing locations, must be executed as a player (target player if using a cmd block)
+- `treasurehunt:location_editor_off`: Stop editing locations, must be executed as a player (target player if using a cmd block)
 - `treasurehunt:game/start`: Start a treasure hunt game
 - `treasurehunt:game/stop`: Stop a treasure hunt game (this will be called if .game_end_ticks is reached, but calling it manually also works)
 - `treasurehunt:game/fireworks`: Fireworks
