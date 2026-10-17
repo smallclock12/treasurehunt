@@ -3,7 +3,7 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "treasurehunt:treasure"
+        "loot_tables": "treasurehunt:treasure"
       }
     }
   },

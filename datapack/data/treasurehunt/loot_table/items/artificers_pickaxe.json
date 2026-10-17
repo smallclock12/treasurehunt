@@ -8,13 +8,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:diamond_pickaxe",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "minecraft:set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "Artificer's Pickaxe",
@@ -26,7 +26,7 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_lore",
+                            "type": "minecraft:set_lore",
                             "mode": "append",
                             "lore": [
                                 {
@@ -36,7 +36,7 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:unbreakable": {}
                             }

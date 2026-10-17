@@ -4,7 +4,7 @@
     "requirement": {
       "trigger": "minecraft:player_generates_container_loot",
       "conditions": {
-        "loot_table": "treasurehunt:example_custom_treasure"
+        "loot_tables": "treasurehunt:example_custom_treasure"
       }
     }
   },

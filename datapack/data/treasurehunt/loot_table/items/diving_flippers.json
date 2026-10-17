@@ -8,13 +8,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:leather_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "minecraft:set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "Diving Flippers",
@@ -26,13 +26,13 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_components",
+                            "type": "minecraft:set_components",
                             "components": {
                                 "minecraft:dyed_color": 16701501
                             }
                         },
                         {
-                            "function": "minecraft:set_enchantments",
+                            "type": "minecraft:set_enchantments",
                             "enchantments": {
                                 "protection": 3,
                                 "unbreaking": 5,
@@ -41,7 +41,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:submerged_mining_speed",
