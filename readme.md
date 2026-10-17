@@ -9,6 +9,13 @@ Based on a Safe Survival minigame event that took place every week on the previo
 
 ### How it works
 
+#### Key Functions
+- `treasurehunt:location_editor_on`: Start editing locations, must be executed as a player (target player if using a cmd block)
+- `treasurehunt:location_editor_off`: Stop editing locations, must be executed as a player (target player if using a cmd block)
+- `treasurehunt:game/start`: Start a treasure hunt game
+- `treasurehunt:game/stop`: Stop a treasure hunt game (this will be called if .game_end_ticks is reached, but calling it manually also works)
+- `treasurehunt:game/fireworks`: Fireworks
+  
 #### Configuring
 
 The following config can be adjusted in the `treasurehunt.store` scoreboard:
@@ -33,10 +40,10 @@ Command: `/scoreboard players set <config option> treasurehunt.store <value>`
   "last_index_available_locations": 5,
 
   // index of the last location random roll
-  // used to select which location to populate with a reward 
+  // used to select which location to populate with a treasure chest
   "location_roll": 1,
 
-  // tracks locations that don't have rewards in them currently
+  // tracks locations that don't have treasure chests in them currently
   // one of these will be selected as the next location
   "available_locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
@@ -80,7 +87,8 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
     // ...
   ],
 
-  // when editing is completed we loop through each of the locations_editor elements and if there is a chest there in the correct orientation we save it here
+  // when editing is completed we loop through each of the locations_editor elements
+  // if there is a chest there in the correct orientation we store it here
   // if there is no chest it is discarded
   // once complete locations will be overwritten by these saved locations
   "locations_saved": [
@@ -91,3 +99,6 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
 }
 ```
 
+## Todo
+
+- Add option for user defined loot table
