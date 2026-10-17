@@ -1,7 +1,9 @@
 function treasurehunt:debug {msg: "Running reward tick"}
 
 # setup data & call create_reward
-$function treasurehunt:_internal/create_reward with storage treasurehunt:game available_locations[$(location_roll)]
+$data modify storage treasurehunt:tmp treasure_location set from storage treasurehunt:game available_locations[$(location_roll)]
+data modify storage treasurehunt:tmp treasure_location.loot_table set from storage treasurehunt:locations loot_table
+function treasurehunt:_internal/create_reward with storage treasurehunt:tmp treasure_location
 
 # move location into populated locations
 $data modify storage treasurehunt:game populated_locations append from storage treasurehunt:game available_locations[$(location_roll)]

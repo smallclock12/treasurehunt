@@ -1,0 +1,14 @@
+{
+  "parent": "treasurehunt:looted_treasure",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "treasurehunt:example_custom_treasure"
+      }
+    }
+  },
+  "rewards": {
+    "function": "treasurehunt:looted_treasure"
+  }
+}
