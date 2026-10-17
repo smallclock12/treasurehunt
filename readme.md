@@ -101,6 +101,9 @@ Once `last_index_populated_locations` is greater than or equal to `.game_max_con
 `/data get storage treasurehunt:locations` 
 ```jsonc
 {
+  // Loot table to use, custom loot tables can be used
+  "loot_table": "treasurehunt:treasure",
+
   // array of saved locations
   "locations": [
     {"x": 218, "y": 79, "z": 126, "rot": "north"},
