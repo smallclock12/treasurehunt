@@ -29,7 +29,7 @@ Command: `/scoreboard players set <config option> treasurehunt.store <value>`
 
 You can also set a custom loot table instead of using ours by setting the `treasurehunt:locations loot_table` nbt data to the name of the loot table you would like to use.
 
-Command: `data modify storage treasurehunt:locations loot_table set value "<namespace>:<loot_table>"`
+Command: `/data modify storage treasurehunt:locations loot_table set value "<namespace>:<loot_table>"`
 
 For the datapack to function correctly you will also need to create an advancement using the following template:
 ```json
