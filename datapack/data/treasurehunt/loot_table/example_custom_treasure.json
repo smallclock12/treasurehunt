@@ -1,0 +1,35 @@
+{
+    "type": "minecraft:loot_table",
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "weight": 1,
+                    "value": "treasurehunt:rares"
+                },
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:diamond_block"
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:netherite_block"
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 3,
+		    "name": "minecraft:diamond"
+		},
+		{
+		    "type": "minecraft:item",
+		    "weight": 1,
+		    "name": "minecraft:netherite_ingot"
+		}
+            ]
+        }
+    ]
+}
