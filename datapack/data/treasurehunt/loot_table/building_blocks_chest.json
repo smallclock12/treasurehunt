@@ -12,9 +12,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:gilded_blackstone",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
 		    ]
@@ -23,9 +23,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:black_shulker_box",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
 		    ]
@@ -34,9 +34,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:stone_bricks",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -45,9 +45,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:oak_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -56,9 +56,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:spruce_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -67,9 +67,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:dark_oak_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -78,9 +78,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:birch_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -89,9 +89,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:mangrove_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -100,9 +100,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:cherry_log",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -111,9 +111,9 @@
 		    "type": "minecraft:item",
 		    "weight": 3,
 		    "name": "minecraft:mossy_stone_bricks",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -122,9 +122,9 @@
 		    "type": "minecraft:item",
 		    "weight": 3,
 		    "name": "minecraft:bricks",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -133,9 +133,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:mossy_cobblestone",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -144,9 +144,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:tuff_bricks",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -155,9 +155,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:mud_bricks",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -166,9 +166,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:blackstone",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -177,9 +177,9 @@
 		    "type": "minecraft:item",
 		    "weight": 3,
 		    "name": "minecraft:smooth_quartz",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -188,9 +188,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:hay_block",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -199,9 +199,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:resin_block",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -210,9 +210,9 @@
 		    "type": "minecraft:item",
 		    "weight": 3,
 		    "name": "minecraft:honeycomb_block",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -221,9 +221,9 @@
 		    "type": "minecraft:item",
 		    "weight": 3,
 		    "name": "minecraft:quartz_block",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]

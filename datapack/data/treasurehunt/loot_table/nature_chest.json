@@ -12,9 +12,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:flower_pot",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -23,9 +23,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:lime_shulker_box",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
 		    ]
@@ -34,9 +34,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:spore_blossom",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -45,9 +45,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:wither_rose",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -56,9 +56,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:cactus_flower",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -67,9 +67,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:bush",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -78,9 +78,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:torchflower",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
 		    ]
@@ -89,9 +89,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:lily_of_the_valley",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -100,9 +100,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:white_tulip",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -111,9 +111,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:orange_tulip",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -122,9 +122,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:pink_tulip",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -133,9 +133,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:white_tulip",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -144,9 +144,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:red_tulip",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -155,9 +155,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:oxeye_daisy",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -166,9 +166,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:open_eyeblossom",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
 		    ]
@@ -177,9 +177,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:red_mushroom",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -188,9 +188,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:brown_mushroom",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -199,9 +199,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:blue_orchid",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -210,9 +210,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:allium",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -221,9 +221,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:azure_bluet",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -232,9 +232,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:oak_sapling",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -243,9 +243,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:birch_sapling",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -254,9 +254,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:mangrove_propagule",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -265,9 +265,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:pale_oak_sapling",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -276,9 +276,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:poppy",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -287,9 +287,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:dandelion",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -298,9 +298,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:cornflower",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 16
                         }
 		    ]

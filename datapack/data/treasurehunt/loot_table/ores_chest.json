@@ -12,9 +12,9 @@
 		    "type": "minecraft:item",
 		    "weight": 12,
 		    "name": "minecraft:iron_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 12
                         }
 		    ]
@@ -23,9 +23,9 @@
 		    "type": "minecraft:item",
 		    "weight": 8,
 		    "name": "minecraft:deepslate_iron_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -34,9 +34,9 @@
 		    "type": "minecraft:item",
 		    "weight": 8,
 		    "name": "minecraft:lapis_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -45,9 +45,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:deepslate_lapis_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -56,9 +56,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:emerald_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 3
                         }
 		    ]
@@ -67,9 +67,9 @@
 		    "type": "minecraft:item",
 		    "weight": 4,
 		    "name": "minecraft:gold_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 6
                         }
 		    ]
@@ -78,9 +78,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:diamond_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 2
                         }
 		    ]
@@ -89,9 +89,9 @@
 		    "type": "minecraft:item",
 		    "weight": 2,
 		    "name": "minecraft:deepslate_diamond_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 4
                         }
 		    ]
@@ -100,9 +100,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:deepslate_emerald_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
 		    ]
@@ -111,9 +111,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:deepslate_coal_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         }
 		    ]
@@ -122,9 +122,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:ancient_debris",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1 
                         }
 		    ]
@@ -133,9 +133,9 @@
 		    "type": "minecraft:item",
 		    "weight": 1,
 		    "name": "minecraft:light_gray_shulker_box",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1 
                         }
 		    ]
@@ -144,9 +144,9 @@
 		    "type": "minecraft:item",
 		    "weight": 16,
 		    "name": "minecraft:coal_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]
@@ -155,9 +155,9 @@
 		    "type": "minecraft:item",
 		    "weight": 10,
 		    "name": "minecraft:copper_ore",
-		    "functions": [
+		    "modifier": [
 			{
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 8
                         }
 		    ]

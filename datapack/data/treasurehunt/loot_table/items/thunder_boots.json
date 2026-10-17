@@ -8,13 +8,13 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "minecraft:iron_boots",
-                    "functions": [
+                    "modifier": [
                         {
-                            "function": "minecraft:set_count",
+                            "type": "minecraft:set_count",
                             "count": 1
                         },
                         {
-                            "function": "minecraft:set_name",
+                            "type": "minecraft:set_name",
                             "name": [
                                 {
                                     "text": "Thunder Boots",
@@ -26,7 +26,7 @@
                             ]
                         },
                         {
-                            "function": "minecraft:set_enchantments",
+                            "type": "minecraft:set_enchantments",
                             "enchantments": {
                                 "protection": 4,
                                 "depth_strider": 4,
@@ -35,7 +35,7 @@
                             }
                         },
                         {
-                            "function": "minecraft:set_attributes",
+                            "type": "minecraft:set_attributes",
                             "modifiers": [
                                 {
                                     "attribute": "minecraft:movement_speed",
